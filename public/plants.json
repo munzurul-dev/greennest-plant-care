@@ -1,0 +1,110 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "description": "A hardy indoor plant that purifies the air and grows well in low light.",
+    "image": "https://i.postimg.cc/ZnTmm1dT/panida-poongeon-dc-EYE5f-A-p-A-unsplash.jpg",
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Monstera Deliciosa",
+    "category": "Tropical",
+    "price": 28,
+    "rating": 4.9,
+    "description": "A beautiful tropical plant with large split leaves that adds a bold natural touch to any room.",
+    "image": "https://i.postimg.cc/fTRsrQs8/matteo-de-lorenzi-g3t-Fs-VLB3wk-unsplash.jpg",
+    "availableStock": 8,
+    "careLevel": "Moderate",
+    "providerName": "GreenLeaf Nursery"
+  },
+  {
+    "plantId": 3,
+    "plantName": "Peace Lily",
+    "category": "Flowering Plant",
+    "price": 22,
+    "rating": 4.7,
+    "description": "An elegant flowering plant known for its beautiful white blooms and air-purifying qualities.",
+    "image": "https://i.postimg.cc/htHqvJd5/maahid-photos-9es-S-VZwr-F0-unsplash.jpg",
+    "availableStock": 15,
+    "careLevel": "Easy",
+    "providerName": "Bloom & Root"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Aloe Vera",
+    "category": "Succulent",
+    "price": 16,
+    "rating": 4.6,
+    "description": "A low-maintenance succulent with soothing leaves that grows well in bright indoor spaces.",
+    "image": "https://i.postimg.cc/d19M54S5/jason-leung-ZBDEgg-Krq-Sc-unsplash-(1).jpg",
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "providerName": "NatureNest Plants"
+  },
+  {
+    "plantId": 5,
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 24,
+    "rating": 4.8,
+    "description": "A resilient indoor plant with glossy leaves that can thrive with minimal watering and light.",
+    "image": "https://i.postimg.cc/CKj9KcYh/gabriella-clare-marino.jpg",
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 6,
+    "plantName": "Rubber Plant",
+    "category": "Decorative",
+    "price": 26,
+    "rating": 4.7,
+    "description": "A stylish indoor plant with broad glossy leaves that brings a sophisticated natural look indoors.",
+    "image": "https://i.postimg.cc/QCMz0s7W/fujiphilm-i-GU4Qbk21Xc-unsplash.jpg",
+    "availableStock": 9,
+    "careLevel": "Moderate",
+    "providerName": "GreenLeaf Nursery"
+  },
+  {
+    "plantId": 7,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 15,
+    "rating": 4.5,
+    "description": "A beginner-friendly plant with beautiful arching leaves that helps create a fresh indoor environment.",
+    "image": "https://i.postimg.cc/jdm1QpSw/feey-CD4NPRRalg-A-unsplash.jpg",
+    "availableStock": 18,
+    "careLevel": "Easy",
+    "providerName": "Plant Haven"
+  },
+  {
+    "plantId": 8,
+    "plantName": "Golden Pothos",
+    "category": "Hanging Plant",
+    "price": 19,
+    "rating": 4.8,
+    "description": "A fast-growing trailing plant with heart-shaped leaves that looks beautiful on shelves and hanging pots.",
+    "image": "https://i.postimg.cc/zfSPN3SH/dima-junglist-Xtaa-IAa-Gy8Q-unsplash.jpg",
+    "availableStock": 14,
+    "careLevel": "Easy",
+    "providerName": "NatureNest Plants"
+  },
+  {
+    "plantId": 9,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Decorative",
+    "price": 32,
+    "rating": 4.9,
+    "description": "A statement indoor plant with large violin-shaped leaves that creates a stylish modern atmosphere.",
+    "image": "https://i.postimg.cc/c15k0pYB/feey-bws-TJMnhcw-E-unsplash.jpg",
+    "availableStock": 6,
+    "careLevel": "Moderate",
+    "providerName": "Bloom & Root"
+  }
+]

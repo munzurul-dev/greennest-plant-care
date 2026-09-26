@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+/* ================================
+   DaisyUI
+================================ */
+
+@plugin "daisyui" {
+  themes: greennest --default;
+}
+
+/* ================================
+   GreenNest Theme
+================================ */
+
+@plugin "daisyui/theme" {
+  name: "greennest";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  /* Base */
+  --color-base-100: #ffffff;
+  --color-base-200: #f7f9f4;
+  --color-base-300: #e8eee6;
+  --color-base-content: #17251d;
+
+  /* Brand */
+  --color-primary: #2f6b4f;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #8fb996;
+  --color-secondary-content: #17251d;
+
+  --color-accent: #d9a441;
+  --color-accent-content: #ffffff;
+
+  /* Neutral */
+  --color-neutral: #173b2a;
+  --color-neutral-content: #ffffff;
+
+  /* Status */
+  --color-info: #4f8fa8;
+  --color-info-content: #ffffff;
+
+  --color-success: #3fa76c;
+  --color-success-content: #ffffff;
+
+  --color-warning: #d99a2b;
+  --color-warning-content: #17251d;
+
+  --color-error: #d9534f;
+  --color-error-content: #ffffff;
+
+  /* Shape */
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+
+  /* UI */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+
+  /* Effects */
+  --depth: 1;
+  --noise: 0;
+}
+
+/* ================================
+   GreenNest Custom Colors
+================================ */
+
+@theme {
+  --color-muted: #6b756d;
+  --color-border: #e2e8e3;
+  --color-surface: #f7f9f4;
+  --color-hero: #eef5ec;
+  --color-footer: #173b2a;
+}
