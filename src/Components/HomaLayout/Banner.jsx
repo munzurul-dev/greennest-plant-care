@@ -6,6 +6,7 @@ import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -42,10 +43,10 @@ const Banner = () => {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer">
+              <Link to="/plants" className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer">
                 Explore Plants
                 <FaArrowRightLong />
-              </button>
+              </Link>
 
               <button className="rounded-2xl border-2 border-white md:border-primary px-5 py-3 font-bold text-white  transition hover:bg-primary hover:text-white cursor-pointer">
                 Get Expert Advice

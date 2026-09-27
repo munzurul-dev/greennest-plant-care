@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -13,18 +13,19 @@ const Navbar = () => {
   return (
     <nav className="relative bg-base px-5 py-4 md:px-10 lg:px-20">
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <div >
+          <a className="flex items-center" href="/">
           <img
             className="h-10 w-10 object-contain"
             src="https://i.postimg.cc/GmyQc6QW/logo.png"
             alt="GreenNest Logo"
           />
 
-          <h2 className="text-xl font-bold text-text">GreenNest</h2>
+          <h2 className="text-xl font-bold text-text">GreenNest</h2></a>
         </div>
 
         <div className="hidden items-center gap-8 md:flex">
-          <NavLink to="/home" className={navLinkClass}>
+          <NavLink to="/" className={navLinkClass}>
             Home
           </NavLink>
 
@@ -38,13 +39,13 @@ const Navbar = () => {
         </div>
 
         <div className="hidden items-center gap-5 md:flex">
-          <button className="cursor-pointer font-bold text-primary transition hover:text-footer">
+          <Link to="/auth/login" className="cursor-pointer font-bold text-primary transition hover:text-footer">
             Login
-          </button>
+          </Link>
 
-          <button className="cursor-pointer rounded-xl bg-primary px-5 py-2 font-bold text-white transition hover:bg-footer">
+          <Link to="/auth/register" className="cursor-pointer rounded-xl bg-primary px-5 py-2 font-bold text-white transition hover:bg-footer">
             Register
-          </button>
+          </Link>
         </div>
 
         <button
@@ -83,11 +84,11 @@ const Navbar = () => {
           </NavLink>
 
           <div className="flex gap-3 pt-2">
-            <button className="font-bold text-primary">Login</button>
+            <Link to="/auth/login" className="font-bold text-primary">Login</Link>
 
-            <button className="rounded-xl bg-primary px-4 py-2 font-bold text-white">
+            <Link to="/auth/register" className="rounded-xl bg-primary px-4 py-2 font-bold text-white">
               Register
-            </button>
+            </Link>
           </div>
         </div>
       )}

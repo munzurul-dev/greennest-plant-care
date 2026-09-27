@@ -8,7 +8,7 @@ const PopularPlants = () => {
         .then((res)=> res.json())
         .then((data)=> setPlants(data))
         },[]);
-        console.log(plants);
+        //console.log(plants);
   return (
     <div className="mt-10">
       <div className="flex items-center gap-1">
