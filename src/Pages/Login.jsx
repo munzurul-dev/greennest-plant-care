@@ -1,33 +1,39 @@
 const Login = () => {
-  const imageUrl = "https://i.postimg.cc/mgZvqMFy/loging-Page-Img.png";
+
 
   return (
-    <div className="min-h-screen md:p-5  lg:p-10 ">
-      <div className="">
-        <a className="flex items-center" href="/">
-          <img
-            className="h-10 w-10 object-contain "
-            src="https://i.postimg.cc/GmyQc6QW/logo.png"
-            alt="GreenNest Logo"
-          />
+    <div className="min-h-screen">
+      <header className="border-b border-gray-200 bg-white">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+          <div className="">
+            <a className="flex items-center" href="/">
+              <img
+                className="h-10 w-10 object-contain "
+                src="https://i.postimg.cc/GmyQc6QW/logo.png"
+                alt="GreenNest Logo"
+              />
 
-          <h2 className="text-xl font-bold text-text">GreenNest</h2>
-        </a>
-      </div>
+              <h2 className="text-xl font-bold text-text">GreenNest</h2>
+            </a>
+          </div>
 
-      <div className="flex justify-center mt-2 md:mt-8 ">
-        <div className="w-full max-w-5xl overflow-hidden ">
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div
-              className="relative min-h-70 bg-cover bg-center md:min-h-200 rounded-md"
-              style={{ backgroundImage: `url("${imageUrl}")` }}
-            >
-              <div className="absolute inset-0 bg-black/10" />
-              <div className="relative flex h-full min-h-70 items-end p-8 md:min-h-120"></div>
-            </div>
+          <div className="flex items-center gap-4">
+            <img
+              src="https://i.pravatar.cc/100?img=47"
+              alt="Profile"
+              className="h-9 w-9 rounded-full border border-gray-200 object-cover"
+            />
+          </div>
+        </nav>
+      </header>
 
-            <div className="flex items-center justify-center px-6 py-10 md:px-10 ">
-              <div className="w-full max-w-sm">
+      <div className="flex justify-center mt-2 md:mt-20 ">
+        <div className="w-full max-w-5xl overflow-hidden  ">
+      
+           
+
+            <div className=" flex items-center justify-center p-10  ">
+              <div className="w-full ">
                 <div className="mb-7 text-center">
                   <h2 className="text-2xl font-bold text-gray-800">
                     Welcome Back
@@ -82,20 +88,24 @@ const Login = () => {
                   type="button"
                   className="flex w-full items-center justify-center gap-2 cursor-pointer rounded-md border border-gray-300 py-2.5 text-sm font-medium text-gray-700 transition hover:bg-gray-50"
                 >
-                  <span className="font-bold text-blue-600 cursor-pointer">G</span>
+                  <span className="font-bold text-blue-600 cursor-pointer">
+                    G
+                  </span>
                   Continue with Google
                 </button>
 
                 <p className="mt-6 text-center text-xs text-gray-500">
                   Don't have an account?{" "}
-                  <span className="font-semibold text-green-700 cursor-pointer">Register</span>
+                  <span className="font-semibold text-green-700 cursor-pointer">
+                    Register
+                  </span>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

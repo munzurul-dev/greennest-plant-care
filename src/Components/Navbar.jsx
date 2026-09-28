@@ -43,7 +43,7 @@ const Navbar = () => {
             Login
           </Link>
 
-          <Link to="/auth/register" className="cursor-pointer rounded-xl bg-primary px-5 py-2 font-bold text-white transition hover:bg-footer">
+          <Link to="/auth/register" className="cursor-pointer  font-bold text-primary hover:text-footer">
             Register
           </Link>
         </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
           <div className="flex gap-3 pt-2">
             <Link to="/auth/login" className="font-bold text-primary">Login</Link>
 
-            <Link to="/auth/register" className="rounded-xl bg-primary px-4 py-2 font-bold text-white">
+            <Link to="/auth/register" className=" font-bold text-primary">
               Register
             </Link>
           </div>
