@@ -1,5 +1,8 @@
+import { Link } from "react-router";
+
 const PlantCard = ({ plant }) => {
-  const { plantName, category, price, rating, image, careLevel } = plant;
+  const { plantName, category, price, rating, image, careLevel, plantId } =
+    plant;
 
   return (
     <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
@@ -28,9 +31,12 @@ const PlantCard = ({ plant }) => {
           <p className="text-sm text-muted">{careLevel} Care</p>
         </div>
 
-        <button className="w-full rounded-xl bg-primary px-4 py-3 font-bold text-white transition hover:bg-footer cursor-pointer">
+        <Link
+          to={`/plants/plantDetails/${plant.plantId}`}
+          className="block text-center w-full rounded-xl bg-primary px-4 py-3 font-bold text-white transition hover:bg-footer cursor-pointer"
+        >
           View Details
-        </button>
+        </Link>
       </div>
     </div>
   );

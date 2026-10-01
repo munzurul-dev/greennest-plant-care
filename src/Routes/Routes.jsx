@@ -6,6 +6,9 @@ import ErrorPage from "../Pages/ErrorPage";
 import Login from "../Pages/Login";
 import Resgister from "../Pages/Resgister";
 import MyProfile from "../Pages/ MyProfile";
+import PlantsHero from "../Components/PlantsLayout/PlantsHero";
+import AllPlants from "../Components/PlantsLayout/AllPlants";
+import PlantDetails from "../Pages/PlantDetails";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +21,21 @@ const router = createBrowserRouter([
     path: "/plants",
     Component: PlantsLayout,
     errorElement: <p>error Page</p>,
-    children: [{}],
+    children: [
+      {
+        index: true,
+        element: (
+          <>
+            <PlantsHero />
+            <AllPlants />
+          </>
+        ),
+      },
+      {
+        path: "plantDetails/:id",
+        Component: PlantDetails,
+      },
+    ],
   },
   {
     path: "/auth",
@@ -40,7 +57,6 @@ const router = createBrowserRouter([
     Component: MyProfile,
     errorElement: <ErrorPage></ErrorPage>,
   },
- 
 ]);
 
 export default router;

@@ -1,3 +1,4 @@
+
 [
   {
     "plantId": 1,
@@ -5,8 +6,13 @@
     "category": "Air Purifier",
     "price": 18,
     "rating": 4.8,
-    "description": "The Snake Plant is a popular indoor plant known for its tall, upright leaves and beautiful green patterns. It is extremely easy to care for and can thrive in low-light conditions. This plant requires minimal watering, making it perfect for beginners and busy plant lovers. Its elegant appearance makes it an excellent choice for bedrooms, living rooms, offices, and modern interior decoration.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sansevieria_trifasciata.jpg",
+    "description": "A hardy indoor plant with tall, upright green leaves. It grows well in low light and needs very little water, making it ideal for beginners.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dracaena_trifasciata.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sansevieria_trifasciata.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Dracaena_trifasciata.jpg",
+      "https://i.postimg.cc/0QtvFJLX/images-(23).jpg"
+    ],
     "availableStock": 12,
     "careLevel": "Easy",
     "providerName": "UrbanGreen Studio"
@@ -17,8 +23,13 @@
     "category": "Tropical",
     "price": 28,
     "rating": 4.9,
-    "description": "Monstera Deliciosa is a stunning tropical indoor plant famous for its large, heart-shaped leaves with beautiful natural splits and holes. Its unique appearance adds a bold and refreshing touch to any interior space. This plant grows well in bright, indirect sunlight and requires moderate watering. With proper care, it can grow into an impressive decorative plant that transforms living rooms, offices, and other indoor spaces.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monstera_deliciosa.jpg",
+    "description": "A tropical plant with large, heart-shaped leaves and distinctive natural splits. It prefers bright, indirect light and moderate watering.",
+    "image": "https://i.postimg.cc/KYF0TpRk/deliciosa-bnb-main.webp",
+    "images": [
+      "https://i.postimg.cc/KYF0TpRk/deliciosa-bnb-main.webp",
+      "https://i.postimg.cc/C5Z70WQM/images-(21).jpg",
+      "https://i.postimg.cc/qRqXcP0h/images-(22).jpg"
+    ],
     "availableStock": 8,
     "careLevel": "Moderate",
     "providerName": "GreenLeaf Nursery"
@@ -29,8 +40,13 @@
     "category": "Flowering Plant",
     "price": 22,
     "rating": 4.7,
-    "description": "Peace Lily is an elegant indoor flowering plant admired for its beautiful dark green leaves and delicate white flowers. It brings a peaceful and refreshing atmosphere to homes and offices. This plant grows well in low to medium indirect light and prefers consistently moist soil. Its graceful appearance makes it an excellent choice for bedrooms, living rooms, and workspaces. With regular watering and proper care, it can produce beautiful white blooms throughout the year.",
+    "description": "An elegant indoor flowering plant with dark green leaves and beautiful white flowers. It prefers indirect light and consistently moist soil.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spathiphyllum_wallisii.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Spathiphyllum_wallisii.jpg",
+      "https://i.postimg.cc/yNXrr4wb/1566417254329-20190821-1566417255317-b9314f1d9f7a4668a466c5ffb1913a8f.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Spathiphyllum.jpg"
+    ],
     "availableStock": 15,
     "careLevel": "Easy",
     "providerName": "Bloom & Root"
@@ -41,8 +57,13 @@
     "category": "Succulent",
     "price": 16,
     "rating": 4.6,
-    "description": "Aloe Vera is a popular succulent plant recognized for its thick, fleshy green leaves and attractive natural appearance. It is an excellent choice for people who prefer low-maintenance indoor plants. Aloe Vera grows best in bright, indirect sunlight and requires very little watering because its leaves store water. Its compact size makes it suitable for windowsills, balconies, desks, and small living spaces. With minimal care and well-draining soil, this plant can remain healthy and beautiful for years.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aloe_vera.jpg",
+    "description": "A low-maintenance succulent with thick, fleshy green leaves. It grows best in bright light and requires infrequent watering.",
+    "image": "https://i.postimg.cc/y6Ps32xS/images-(17).jpg",
+    "images": [
+      "https://i.postimg.cc/y6Ps32xS/images-(17).jpg",
+      "https://i.postimg.cc/rpxLVP7g/images-(18).jpg",
+      "https://i.postimg.cc/XvwTSyyX/images-(20).jpg"
+    ],
     "availableStock": 20,
     "careLevel": "Easy",
     "providerName": "NatureNest Plants"
@@ -53,8 +74,13 @@
     "category": "Low Light",
     "price": 24,
     "rating": 4.8,
-    "description": "The ZZ Plant is a beautiful and resilient indoor plant featuring thick stems and glossy, dark green leaves. It is well known for its ability to tolerate low-light environments and irregular watering, making it ideal for beginners. This plant requires very little maintenance and grows well in homes, offices, and apartments. Its attractive appearance and slow-growing nature make it a wonderful decorative choice for desks, shelves, and living room corners. Allowing the soil to dry between waterings helps keep it healthy.",
+    "description": "A resilient indoor plant with glossy green leaves. It tolerates low light and irregular watering, making it suitable for beginners.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zamioculcas_zamiifolia.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zamioculcas_zamiifolia.jpg",
+      "https://i.postimg.cc/7LFYX7rP/ZZ-Plant-Varieties-ec47a908-9c57-42f0-bf0b-435281319826.webp",
+      "https://i.postimg.cc/3rCJCdSN/images-(16).jpg"
+    ],
     "availableStock": 10,
     "careLevel": "Easy",
     "providerName": "UrbanGreen Studio"
@@ -65,8 +91,13 @@
     "category": "Decorative",
     "price": 26,
     "rating": 4.7,
-    "description": "The Rubber Plant is a stylish indoor plant known for its large, thick, glossy leaves and attractive upright growth. Its rich green foliage creates a sophisticated and modern atmosphere in any interior. It grows best in bright, indirect sunlight and prefers watering when the top layer of soil becomes dry. With proper care, the Rubber Plant can grow into an impressive indoor tree. It is an excellent decorative choice for living rooms, offices, and spacious indoor environments.",
+    "description": "A decorative indoor tree with large, thick, glossy leaves. It grows best in bright, indirect light and moderate watering.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus_elastica.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus_elastica.jpg",
+      "https://i.postimg.cc/7L6TjScq/images-(15).jpg",
+      "https://i.postimg.cc/FK77TNf2/rubber-plant-tineke-bnb.webp"
+    ],
     "availableStock": 9,
     "careLevel": "Moderate",
     "providerName": "GreenLeaf Nursery"
@@ -77,8 +108,13 @@
     "category": "Air Purifier",
     "price": 15,
     "rating": 4.5,
-    "description": "The Spider Plant is a charming and beginner-friendly indoor plant featuring long, narrow leaves that gracefully arch outward. Its attractive green foliage, sometimes decorated with white stripes, adds a fresh and natural appearance to any room. This plant grows well in bright, indirect light and prefers regular but moderate watering. It can also produce small plantlets that make propagation easy. Its adaptable nature makes it a great choice for hanging baskets, shelves, bedrooms, and office spaces.",
+    "description": "A beginner-friendly indoor plant with long, arching green leaves. It grows well in indirect light and is suitable for hanging baskets.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chlorophytum_comosum.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chlorophytum_comosum.jpg",
+      "https://i.postimg.cc/NGW7TCn2/Getty-Images-823655632-85c0768e6cb74bfcad51021a7ed92d5b.jpg",
+      "https://i.postimg.cc/LsCjsxP0/images-(14).jpg"
+    ],
     "availableStock": 18,
     "careLevel": "Easy",
     "providerName": "Plant Haven"
@@ -89,8 +125,13 @@
     "category": "Hanging Plant",
     "price": 19,
     "rating": 4.8,
-    "description": "Golden Pothos is a beautiful trailing indoor plant admired for its heart-shaped green leaves with attractive golden-yellow patterns. Its fast-growing vines make it an excellent choice for hanging baskets, shelves, and decorative pots. This adaptable plant can tolerate a range of indoor lighting conditions, although bright, indirect sunlight helps maintain its vibrant leaf patterns. It requires moderate watering and is relatively easy to maintain. Golden Pothos is perfect for adding a natural, tropical touch to homes, apartments, and offices.",
+    "description": "A trailing plant with heart-shaped green leaves and golden variegation. It is easy to care for and ideal for hanging baskets and shelves.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Epipremnum_aureum.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Epipremnum_aureum.jpg",
+      "https://i.postimg.cc/PJLpNhH7/Golden-Pothos-Light.jpg",
+      "https://i.postimg.cc/s2VM75y7/Golden-Pothos-w17-mosspole-800x800.webp"
+    ],
     "availableStock": 14,
     "careLevel": "Easy",
     "providerName": "NatureNest Plants"
@@ -101,8 +142,13 @@
     "category": "Decorative",
     "price": 32,
     "rating": 4.9,
-    "description": "The Fiddle Leaf Fig is a striking decorative indoor plant famous for its large, violin-shaped leaves and impressive upright growth. Its bold foliage makes it a popular choice for modern homes and stylish interior designs. This plant grows best in bright, indirect sunlight and requires consistent watering without allowing the soil to become waterlogged. It prefers a stable environment and benefits from occasional leaf cleaning. With proper care, the Fiddle Leaf Fig can become a beautiful focal point in living rooms, offices, and spacious interiors.",
+    "description": "A striking decorative plant with large, violin-shaped leaves. It prefers bright, indirect sunlight and consistent watering.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus_lyrata.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus_lyrata.jpg",
+      "https://i.postimg.cc/ncy7jsCk/images-(13).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus_lyrata_leaf.jpg"
+    ],
     "availableStock": 6,
     "careLevel": "Moderate",
     "providerName": "Bloom & Root"
@@ -113,8 +159,13 @@
     "category": "Tropical",
     "price": 35,
     "rating": 4.9,
-    "description": "Bird of Paradise is an impressive tropical plant known for its large, broad, banana-like leaves and exotic appearance. Its dramatic foliage brings a luxurious tropical atmosphere to indoor spaces and makes a beautiful statement in modern interiors. This plant thrives in bright light and needs regular watering during active growth, while avoiding waterlogged soil. With enough space and suitable growing conditions, it can develop into a magnificent indoor plant. It is an excellent choice for spacious living rooms, offices, and sunlit corners.",
+    "description": "A tropical plant with large, broad leaves and an exotic appearance. It thrives in bright light and makes an impressive indoor decoration.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Strelitzia_reginae.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Strelitzia_reginae.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Strelitzia_nicolai.jpg",
+      "https://i.postimg.cc/dQWj1t22/learn-how-to-grow-and-care-bird-of-paradise-780x520.jpg"
+    ],
     "availableStock": 7,
     "careLevel": "Moderate",
     "providerName": "Tropical Garden"
@@ -125,8 +176,13 @@
     "category": "Decorative",
     "price": 29,
     "rating": 4.8,
-    "description": "Calathea Orbifolia is an elegant tropical indoor plant admired for its large, round leaves decorated with beautiful silver-green stripes. Its distinctive foliage adds a sophisticated and calming natural appearance to any interior. This plant prefers bright, indirect light, consistently moist soil, and higher humidity to maintain its attractive leaves. It is sensitive to harsh sunlight and dry conditions, so careful watering and suitable placement are important. Calathea Orbifolia is a wonderful decorative choice for bedrooms, living rooms, and stylish indoor gardens.",
+    "description": "A tropical decorative plant with large, round leaves and beautiful silver-green stripes. It prefers indirect light, humidity and moist soil.",
     "image": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=800",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Calathea_orbifolia.jpg",
+      "https://i.postimg.cc/Dw4gRkbj/images-(12).jpg"
+    ],
     "availableStock": 11,
     "careLevel": "Moderate",
     "providerName": "GreenLeaf Nursery"
@@ -137,8 +193,13 @@
     "category": "Succulent",
     "price": 21,
     "rating": 4.7,
-    "description": "The Jade Plant is a popular succulent recognized for its thick, fleshy, oval-shaped green leaves and attractive, tree-like growth. Its compact and elegant appearance makes it an excellent choice for desks, windowsills, balconies, and indoor gardens. This low-maintenance plant thrives in bright light and requires infrequent watering because its leaves store moisture. Well-draining soil is essential to keep its roots healthy. With proper care, the Jade Plant can live for many years and develop into a beautiful miniature tree.",
+    "description": "A popular succulent with thick, oval-shaped green leaves and tree-like growth. It thrives in bright light and requires little watering.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crassula_ovata.jpg",
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Crassula_ovata.jpg",
+      "https://i.postimg.cc/MT2r9ZP6/140122-Crassula-ovata-006-9-Optimized.jpg",
+      "https://i.postimg.cc/T3K7G5BK/Jade-Plant-MAIN.jpg"
+    ],
     "availableStock": 16,
     "careLevel": "Easy",
     "providerName": "NatureNest Plants"
