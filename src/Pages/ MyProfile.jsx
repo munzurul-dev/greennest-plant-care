@@ -3,7 +3,6 @@ import { Camera } from "lucide-react";
 const MyProfile = () => {
   return (
     <div className="min-h-screen bg-[#f8faf9]">
-      {/* Navbar */}
       <header className="border-b border-gray-200 bg-white">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
           <div className="">
@@ -29,12 +28,10 @@ const MyProfile = () => {
       </header>
 
       <main className="mx-auto max-w-3xl px-5 py-8 sm:py-10">
-        {/* Profile Header */}
         <section className="text-center">
           <h1 className="text-3xl font-bold text-gray-900">My Profile</h1>
           <p className="mt-2 text-gray-500">Manage your profile information.</p>
 
-          {/* Profile Image */}
           <div className="relative mx-auto mt-8 h-32 w-32 sm:h-36 sm:w-36">
             <img
               src="https://i.pravatar.cc/300?img=47"
@@ -50,7 +47,6 @@ const MyProfile = () => {
             </button>
           </div>
 
-          {/* User Information */}
           <h2 className="mt-4 text-2xl font-bold text-gray-900">Sarah Khan</h2>
           <p className="mt-1 text-sm text-gray-500">sarah@gmail.com</p>
 
@@ -62,14 +58,12 @@ const MyProfile = () => {
           </button>
         </section>
 
-        {/* Edit Profile Card */}
         <section className="mt-8 rounded-xl border border-gray-100 bg-white p-5 shadow-sm sm:p-7">
           <h2 className="mb-5 text-2xl font-bold text-gray-900">
             Edit Profile
           </h2>
 
           <div className="space-y-5">
-            {/* Name */}
             <div>
               <label className="mb-2 block text-sm font-semibold text-gray-800">
                 Name
@@ -81,7 +75,6 @@ const MyProfile = () => {
               />
             </div>
 
-            {/* Photo URL */}
             <div>
               <label className="mb-2 block text-sm font-semibold text-gray-800">
                 Photo URL
@@ -93,7 +86,6 @@ const MyProfile = () => {
               />
             </div>
 
-            {/* Save Button */}
             <button
               type="button"
               className="w-full rounded-lg bg-[#176b45] py-3 font-semibold text-white transition-colors hover:bg-[#125638]"

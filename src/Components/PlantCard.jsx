@@ -1,8 +1,7 @@
 import { Link } from "react-router";
 
 const PlantCard = ({ plant }) => {
-  const { plantName, category, price, rating, image, careLevel, plantId } =
-    plant;
+  const { plantName, category, price, rating, image, careLevel } = plant;
 
   return (
     <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
