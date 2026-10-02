@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAP77-wBQyGTFNLAizE_gTIB_S-XZ7DPRM",
-  authDomain: "greennest-plant.firebaseapp.com",
-  projectId: "greennest-plant",
-  storageBucket: "greennest-plant.firebasestorage.app",
-  messagingSenderId: "841922373994",
-  appId: "1:841922373994:web:83759ba8284a2151111d13"
+  apiKey:import.meta.env.VITE_apiKey,
+  authDomain:import.meta.env.VITE_authDomain,
+  projectId:import.meta.env.VITE_projectId,
+  storageBucket:import.meta.env.VITE_storageBucket,
+  messagingSenderId:import.meta.env.VITE_messagingSenderId,
+  appId:import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

@@ -23,7 +23,6 @@ const Banner = () => {
       }}
       className="h-135"
     >
-  
       <SwiperSlide>
         <div
           className="h-full bg-cover bg-center bg-no-repeat"
@@ -33,8 +32,7 @@ const Banner = () => {
         >
           <div className="flex h-full flex-col justify-center space-y-5 pl-10 md:pl-20 lg:pl-52">
             <h1 className="max-w-xl text-4xl font-bold leading-tight md:text-6xl lg:text-7xl">
-              Bring <span className="text-primary">Nature</span> Into Your
-              Home
+              Bring <span className="text-primary">Nature</span> Into Your Home
             </h1>
 
             <p className="max-w-xl text-lg font-medium text-text md:text-xl">
@@ -43,12 +41,23 @@ const Banner = () => {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Link to="/plants" className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer">
+              <Link
+                to="/plants"
+                className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer"
+              >
                 Explore Plants
                 <FaArrowRightLong />
               </Link>
 
-              <button className="rounded-2xl border-2 border-white md:border-primary px-5 py-3 font-bold text-white  transition hover:bg-primary hover:text-white cursor-pointer">
+              <button
+                onClick={() =>
+                  document.getElementById("green-experts")?.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  })
+                }
+                className="rounded-2xl border-2 border-white md:border-primary px-5 py-3 font-bold text-white transition hover:bg-primary hover:text-white cursor-pointer"
+              >
                 Get Expert Advice
               </button>
             </div>
@@ -56,7 +65,6 @@ const Banner = () => {
         </div>
       </SwiperSlide>
 
-     
       <SwiperSlide>
         <div
           className="h-full bg-cover bg-center bg-no-repeat"
@@ -74,12 +82,23 @@ const Banner = () => {
             </p>
 
             <div className="flex flex-wrap gap-4">
-                 <Link to="/plants" className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer">
+              <Link
+                to="/plants"
+                className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer"
+              >
                 Explore Plants
                 <FaArrowRightLong />
               </Link>
 
-              <button className="rounded-2xl border-2 border-white md:border-primary  px-5 py-3 font-bold text-white md:text-primary transition hover:bg-primary hover:text-white cursor-pointer">
+              <button
+                onClick={() =>
+                  document.getElementById("green-experts")?.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  })
+                }
+                className="rounded-2xl border-2 border-white md:border-primary px-5 py-3 font-bold text-white transition hover:bg-primary hover:text-white cursor-pointer"
+              >
                 Get Expert Advice
               </button>
             </div>
@@ -87,7 +106,6 @@ const Banner = () => {
         </div>
       </SwiperSlide>
 
-    
       <SwiperSlide>
         <div
           className="h-full bg-cover bg-center bg-no-repeat"
@@ -101,17 +119,28 @@ const Banner = () => {
             </h1>
 
             <p className="max-w-xl text-lg font-medium text-text md:text-xl">
-              Create a calm, refreshing and greener space with beautiful
-              indoor plants.
+              Create a calm, refreshing and greener space with beautiful indoor
+              plants.
             </p>
 
             <div className="flex flex-wrap gap-4">
-                <Link to="/plants" className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer">
+              <Link
+                to="/plants"
+                className="flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 font-bold text-white transition hover:bg-footer cursor-pointer"
+              >
                 Explore Plants
                 <FaArrowRightLong />
               </Link>
 
-              <button className="rounded-2xl border-2 border-white md:border-primary px-5 py-3 font-bold text-white md:text-primary transition hover:bg-primary hover:text-white cursor-pointer">
+              <button
+                onClick={() =>
+                  document.getElementById("green-experts")?.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  })
+                }
+                className="rounded-2xl border-2 border-white md:border-primary px-5 py-3 font-bold text-white transition hover:bg-primary hover:text-white cursor-pointer"
+              >
                 Get Expert Advice
               </button>
             </div>

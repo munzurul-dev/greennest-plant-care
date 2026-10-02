@@ -1,16 +1,18 @@
+
 import { Outlet } from "react-router";
-import Login from "../Pages/Login";
-import Resgister from "../Pages/Resgister";
-import MyProfile from "../Pages/ MyProfile";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AuthLayout = () => {
   return (
     <div>
-      <Outlet>
-        <Login></Login>
-        <Resgister></Resgister>
-        <MyProfile></MyProfile>
-      </Outlet>
+      <Outlet />
+
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        theme="light"
+      />
     </div>
   );
 };

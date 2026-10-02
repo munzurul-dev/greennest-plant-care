@@ -20,36 +20,51 @@ const Footer = () => {
             <h3 className="mb-3 text-sm font-bold">Quick Links</h3>
 
             <div className="flex flex-col gap-1 text-sm text-white/70">
-              <a href="#" className="transition hover:text-white">
-                About
+              <a href="/" className="transition hover:text-white">
+                Home
               </a>
 
-              <a href="#" className="transition hover:text-white">
-                Contact
+              <a href="/plants" className="transition hover:text-white">
+                Plants
               </a>
 
-              <a href="#" className="transition hover:text-white">
-                Privacy Policy
+              <a href="/myprofile" className="transition hover:text-white">
+                My Profile
               </a>
             </div>
           </div>
           <div className="">
             <h2 className="text-white font-bold mb-5">Fllow Us</h2>
-            <div className="flex gap-4">
-              <FaInstagram
-                size={18}
-                className="cursor-pointer transition hover:text-secondary"
-              />
+            <div className="flex gap-3">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/muhammadmunzurul"
+              >
+                <FaInstagram
+                  size={18}
+                  className="cursor-pointer transition hover:text-secondary"
+                />
+              </a>
 
-              <FaFacebookF
-                size={18}
-                className="cursor-pointer transition hover:text-secondary"
-              />
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=61594430067608"
+              >
+                <FaFacebookF
+                  size={18}
+                  className="cursor-pointer transition hover:text-secondary"
+                />
+              </a>
 
-              <FaLinkedinIn
-                size={18}
-                className="cursor-pointer transition hover:text-secondary"
-              />
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/muhammad-munzurul-a2584635b/?isSelfProfile=true"
+              >
+                <FaLinkedinIn
+                  size={18}
+                  className="cursor-pointer transition hover:text-secondary"
+                />
+              </a>
             </div>
           </div>
         </div>

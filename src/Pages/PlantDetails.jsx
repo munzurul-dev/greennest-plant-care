@@ -10,18 +10,40 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router";
-
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
+import Loading from "../Components/PlantsLayout/Loading";
+import { toast } from "react-toastify";
 const PlantDetails = () => {
   const { id } = useParams();
 
   const [plantsData, setPlantsData] = useState([]);
   const [img, setImg] = useState("");
+  const { bookings, setBookings } = useContext(AuthContext);
+  const [plantsLoading, setPlantsLoading] = useState(true);
+  const handleBooking = () => {
+    if (bookings.includes(findedData.plantId)) {
+      toast.error("This plant is already booked!");
+      return;
+    }
 
+    setBookings((prev) => [...prev, findedData.plantId]);
+    toast.success("Booking successful!");
+  };
   useEffect(() => {
     fetch("/plants.json")
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load plants");
+        return res.json();
+      })
       .then((data) => {
         setPlantsData(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      })
+      .finally(() => {
+        setPlantsLoading(false);
       });
   }, []);
 
@@ -34,8 +56,12 @@ const PlantDetails = () => {
     }
   }, [findedData]);
 
+  if (plantsLoading) {
+    return <Loading />;
+  }
+
   if (!findedData) {
-    return <p>Loading...</p>;
+    return <p>Plant not found!</p>;
   }
 
   return (
@@ -189,6 +215,7 @@ const PlantDetails = () => {
               <label className="mb-2 block text-sm font-medium">Name</label>
               <input
                 type="text"
+                required
                 placeholder="Your name"
                 className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm outline-none placeholder:text-gray-400 focus:border-green-700"
               />
@@ -198,6 +225,7 @@ const PlantDetails = () => {
               <label className="mb-2 block text-sm font-medium">Email</label>
               <input
                 type="email"
+                required
                 placeholder="Your email"
                 className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm outline-none placeholder:text-gray-400 focus:border-green-700"
               />
@@ -205,7 +233,8 @@ const PlantDetails = () => {
 
             <button
               type="button"
-              className="w-full rounded-lg bg-[#176b45] py-3 text-sm font-semibold text-white transition hover:bg-[#125638]"
+              onClick={handleBooking}
+              className="w-full rounded-lg bg-[#176b45] py-3 text-sm font-semibold text-white transition hover:bg-[#125638] cursor-pointer"
             >
               Book Now
             </button>

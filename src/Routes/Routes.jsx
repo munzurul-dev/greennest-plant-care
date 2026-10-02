@@ -1,7 +1,9 @@
 import { createBrowserRouter } from "react-router";
+
 import HomeLayout from "../Layout/HomeLayout";
 import PlantsLayout from "../Layout/PlantsLayout";
 import AuthLayout from "../Layout/AuthLayout";
+
 import ErrorPage from "../Pages/ErrorPage";
 import Login from "../Pages/Login";
 import Resgister from "../Pages/Resgister";
@@ -9,53 +11,69 @@ import MyProfile from "../Pages/ MyProfile";
 import PlantsHero from "../Components/PlantsLayout/PlantsHero";
 import AllPlants from "../Components/PlantsLayout/AllPlants";
 import PlantDetails from "../Pages/PlantDetails";
+import ForgotPassword from "../Pages/ForgotPassword";
+import PrivetRoutes from "../Provider/PrivetRoutes";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: HomeLayout,
-    errorElement: <p>Erorr Page</p>,
+    errorElement: <ErrorPage />,
     children: [],
   },
   {
     path: "/plants",
     Component: PlantsLayout,
-    errorElement: <p>error Page</p>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
         element: (
-          <>
-            <PlantsHero />
-            <AllPlants />
-          </>
+          <PrivetRoutes>
+            <>
+              <PlantsHero />
+              <AllPlants />
+            </>
+          </PrivetRoutes>
         ),
       },
       {
         path: "plantDetails/:id",
-        Component: PlantDetails,
+        element: (
+          <PrivetRoutes>
+            <PlantDetails />
+          </PrivetRoutes>
+        ),
       },
     ],
   },
   {
     path: "/auth",
     Component: AuthLayout,
-    errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage />,
     children: [
       {
-        path: "/auth/login",
+        path: "login",
         Component: Login,
       },
       {
-        path: "/auth/register",
+        path: "register",
         Component: Resgister,
+      },
+      {
+        path: "forgot-password",
+        Component: ForgotPassword,
       },
     ],
   },
   {
     path: "/myprofile",
-    Component: MyProfile,
-    errorElement: <ErrorPage></ErrorPage>,
+    element: (
+      <PrivetRoutes>
+        <MyProfile />
+      </PrivetRoutes>
+    ),
+    errorElement: <ErrorPage />,
   },
 ]);
 

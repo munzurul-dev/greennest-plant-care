@@ -1,6 +1,8 @@
 import { ArrowRight, Star } from "lucide-react";
+import { useNavigate } from "react-router";
 
 const PlantOfTheWeek = () => {
+  const navigate = useNavigate();
   return (
     <section className="py-12">
       <div
@@ -36,7 +38,7 @@ const PlantOfTheWeek = () => {
             <div className="mt-3 flex items-center gap-4">
               <span className="text-2xl font-extrabold text-text">$24</span>
 
-              <button className="flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-xs font-bold text-white transition hover:bg-footer cursor-pointer">
+              <button onClick={()=> navigate("/plants")} className="flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-xs font-bold text-white transition hover:bg-footer cursor-pointer">
                 Discover Plant
                 <ArrowRight size={14} />
               </button>

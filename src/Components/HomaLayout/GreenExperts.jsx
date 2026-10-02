@@ -26,7 +26,7 @@ const GreenExperts = () => {
   ];
 
   return (
-    <section className="py-12">
+    <section id="green-experts" className="py-12">
      
       <div className="mb-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
