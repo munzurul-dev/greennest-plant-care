@@ -1,16 +1,101 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌿 GreenNest — Plant Care & Booking
 
-Currently, two official plugins are available:
+GreenNest is a responsive plant-care web application where users can explore plants, view plant details, and manage their bookings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Website:** https://greennestplant.netlify.app/  
+📦 **GitHub Repository:** https://github.com/munzurul-dev/greennest-plant-care.git
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse plants and explore plant details
+- User authentication with Firebase
+- Google sign-in (if enabled in the Firebase project)
+- View and manage booked plants
+- Remove plants from booking history
+- Update profile name and photo URL
+- Responsive layout for mobile, tablet, and desktop
+- Client-side routing with React Router
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- Firebase Authentication
+- React Router
+- Lucide React
+
+## 🚀 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/munzurul-dev/greennest-plant-care.git
+cd greennest-plant-care
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env` file in the project root and add your Firebase web app configuration:
+
+```env
+VITE_apiKey=your_firebase_api_key
+VITE_authDomain=your_project.firebaseapp.com
+VITE_projectId=your_project_id
+VITE_storageBucket=your_project_storage_bucket
+VITE_messagingSenderId=your_messaging_sender_id
+VITE_appId=your_firebase_app_id
+```
+
+Replace the placeholder values with your own Firebase project settings. Do not commit your `.env` file to GitHub.
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+The production build is generated in the `dist` directory.
+
+## 🔐 Firebase Setup
+
+To use Firebase Authentication:
+
+1. Create or open a project in the [Firebase Console](https://console.firebase.google.com/).
+2. Register a Web App and copy its Firebase configuration.
+3. Enable the authentication providers used by the app.
+4. Add your deployed domain (`greennestplant.netlify.app`) to **Authentication → Settings → Authorized domains**.
+5. Add the environment variables to your hosting provider and redeploy.
+
+## 🌐 Deployment
+
+The project is deployed on Netlify:
+
+https://greennestplant.netlify.app/
+
+If the GitHub repository is connected to Netlify with automatic deploys enabled, pushing changes to the configured branch triggers a new deployment.
+
+## 👨‍💻 Author
+
+**Muhammad Munzurul**
+
+- GitHub: [@munzurul-dev](https://github.com/munzurul-dev)
+
+---
+
+Made with 🌱 for plant lovers.
